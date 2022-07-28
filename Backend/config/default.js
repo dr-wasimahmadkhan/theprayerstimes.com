@@ -24,8 +24,8 @@ module.exports = {
         },
     },
     aws: {
-        awsAccessKey: fromEnv('AWS_ACCESS_KEY', 'AKIASZSYEMTGEHYFAECA'),
-        awsSecretKey: fromEnv('AWS_SECRET_KEY', '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'),
+        awsAccessKey: fromEnv('AWS_ACCESS_KEY', ''),
+        awsSecretKey: fromEnv('AWS_SECRET_KEY', ''),
         awsBucket: fromEnv('AWS_BUCKET', 'prayer-timees'),
         awsRegion: fromEnv('AWS_REGION', "us-west-1"),
     },
