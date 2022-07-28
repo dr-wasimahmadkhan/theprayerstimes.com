@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/layouts/*": ["components/layouts/*"],
+      "@/marketingSite/*": ["components/marketing-site/*"],
+      "@/adminSite/*": ["components/admin-site/*"],
+      "@/commons/*": ["components/common/*"],
+      "@/constants/*": ["constants/*"],
+      "@/icons/*": ["icons/*"],
+      "@/inputs/*": ["components/inputs/*"],
+      "@/utils/*": ["components/utils/*"],
+      "@/modals/*": ["components/modals/*"],
+      "@/images/*": ["components/images/*"]
+    }
+  }
+}
