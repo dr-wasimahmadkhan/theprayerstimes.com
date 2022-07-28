@@ -3,7 +3,7 @@ import MarketingTemplate from '@/layouts/marketing-template';
 
 const Services = () => {
   return (
-    <MarketingTemplate>
+    <MarketingTemplate title="Services">
       <div className="wpo-breadcumb-area">
         <div className="container">
           <div className="row">

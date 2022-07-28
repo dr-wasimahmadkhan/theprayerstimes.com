@@ -11,7 +11,7 @@ import MyComponent from "react-fullpage-custom-loader";
 const Contact = () => {
   const { mutate: createContact, isLoading: isLoadingSave } = useMutation(CREATE_CONTACT);
   return (
-    <MarketingTemplate>
+    <MarketingTemplate title="Contact">
       <div className="wpo-breadcumb-area">
         <div className="container">
           <div className="row">
